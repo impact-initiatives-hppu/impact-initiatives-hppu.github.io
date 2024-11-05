@@ -7,7 +7,7 @@ execute:
 
 website:
   title: "HPPU now has a site for technical documentation"
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  description: "Gandalf is an under-construction renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
   image: img/my_image.jpg
   site-url: "https://impact-initiatives-hppu.github.io/"
   navbar:
@@ -19,37 +19,37 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - text: "Projects"
-        href: projects/index.qmd
+      - text: "Documentation"
+        href: documentation/index.qmd
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
+      - icon: github
+        href: https://github.com/impact-initiatives-hppu
       - icon: twitter
-        href: https://twitter.com/MarvinSchmittML
+        href: https://twitter.com/IMPACT_init
       - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+        href: https://www.linkedin.com/company/impact-initiatives/
       - icon: envelope
         aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
+        href: "mailto:guillaume.noblet@impact-initiatives.org"  
   # Don't touch unless you know what you are doing :) ------------
   search: 
     location: navbar
     type: textbox
   page-footer: 
     left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2023 Guillaume Noblet CC BY-SA 4.0</span>
     center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://github.com/impact-initiatives-hppu">View the tutorial for this template!</a></span>
     right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/impact-initiatives-hppu/impact-initiatives-hppu.github.io">View source on GitHub</a></span>
 
 format:
   html:
     fontsize: 1.1em
     theme: 
-      - pulse
+      - cosmo
       - html/styles.scss
     toc: false
     code-link: true
