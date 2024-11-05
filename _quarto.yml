@@ -9,7 +9,7 @@ website:
   title: "HPPU now as a site for technical documentation"
   description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
   image: img/my_image.jpg
-  site-url: "https://impact-initiatives-hppu.github.io/""
+  site-url: "https://impact-initiatives-hppu.github.io/"
   navbar:
     pinned: true
     logo: /img/logo.png
