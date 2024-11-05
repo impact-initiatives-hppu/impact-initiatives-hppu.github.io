@@ -5,7 +5,8 @@ execute:
   freeze: auto
 
 website:
-  title: "mysite"
+  title: "HPPU now as a site for technical documentation"
+  site-url: "https://impact-initiatives-hppu.github.io/""
   navbar:
     left:
       - href: index.qmd
