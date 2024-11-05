@@ -1,0 +1,83 @@
+Title: System for Script Archiving, Consolidation, and Reproducibility
+
+Objective:
+This document outlines the system and guidelines for archiving scripts, consolidating packages, and ensuring reproducibility within the organization. The approach secures the continuity, tracking, and versioning of work, emphasizing the importance of clear documentation for effective handovers and ownership.
+1. System Overview and Purpose
+
+    Goal:
+    Ensure that all scripts, packages, and workflows are stored systematically, documented effectively, and available for reproducibility. This enhances team collaboration, knowledge transfer, and continuity over time.
+    Tools Used:
+    Primarily GitHub (for version control and storage), with Box for additional file sharing. renv and rig are used for R version/package management; pipx supports Python version management.
+    Audience:
+    Technical (data scientists, analysts) and non-technical (project managers, coordinators) stakeholders.
+
+2. Archiving & Consolidating Scripts
+
+    Why Archive?
+    Archiving provides a historical record of work, enabling easy retrieval and reducing duplicate effort.
+
+    Where to Archive?
+    Use GitHub for all finalized scripts and packages, with Box as a backup for documentation-heavy folders or file types incompatible with GitHub.
+
+        📦 Tip: Consolidate scripts into logical groups (by project, assessment, or package) to simplify organization and retrieval.
+
+    Script Consolidation:
+        Ensure that scripts have clear file names and logical folder structures.
+        Include a README.md in each repository or folder to describe the purpose, content, and ownership.
+
+3. Reproducibility & Tracking
+
+    Reproducibility Principles:
+    All scripts should be structured to produce consistent outputs given the same inputs and be easy for others to understand and execute.
+    How to Ensure Reproducibility:
+
+        Document all dependencies and packages required for R and Python.
+
+        For R: Use renv to create isolated environments specific to each project, recording exact package versions and the R version used.
+
+        For Python: Use pipx to manage standalone installations of Python tools and packages, ensuring that all required versions and environments are readily accessible.
+
+        🔍 Zoom-in on Dependency Management: renv will help recreate R environments with the same package versions on any machine. For Python, pipx lets you run multiple tool versions side-by-side without conflicts.
+
+4. Ownership and Handovers
+
+    Ownership:
+    Each script and repository should have a designated owner responsible for maintenance and updates.
+    Documentation for Handovers:
+
+        Provide a handover note in the README.md when a script changes ownership, summarizing any major updates or shifts in purpose.
+
+        Encourage use of in-line comments and function documentation within scripts to ease transitions.
+
+        📄 Handy Tip: Use descriptive variable and function names, and include comments for clarity on code logic.
+
+5. Versioning & Change Management
+
+    Why Versioning Matters:
+    Versioning allows us to keep a record of every change, enabling us to understand the evolution of a script or workflow and revert if needed.
+    Using Git for Version Control:
+        Commit regularly with clear messages describing what was added, removed, or changed.
+        Use a CHANGELOG.md file to document significant changes between versions.
+    Version Management Tools for R and Python:
+
+        For R: Use rig to install and manage multiple R versions, ensuring compatibility with past projects.
+
+        For Python: Use pipx to install and manage multiple versions of Python tools in isolated environments, reducing conflicts.
+
+        🔄 Box Note on Git Versioning: Explain how GitHub’s versioning and history tracking can help non-technical users understand updates and revert to previous versions if needed.
+
+6. Documentation Requirements
+
+    README.md for Each Repository:
+    Briefly describe the purpose, requirements, and any specific instructions.
+
+    Code Documentation:
+    Use comments to explain complex lines of code and docstrings for functions (particularly helpful for R and Python scripts).
+
+    Change Log (CHANGELOG.md):
+    Include this file to list all updates and versions, with dates, for a clear history.
+
+        📝 Non-Technical Note: Explain how this allows everyone, regardless of coding knowledge, to follow along with changes and updates.
+
+Conclusion:
+This system creates a seamless workflow for technical and non-technical team members. Following these guidelines will ensure our work is organized, accessible, and reproducible across projects and timeframes.
