@@ -1,37 +1,37 @@
 ---
-title: "Guillaume Noblet"
+title: "HPPU - MSNA Techincal Documentation"
 date: last-modified
 resources:
   - .nojekyll
 about:
-  template: cosmo
+  template: jolla
   id: about-block
-  image: "img/myself.jpg"
+  image: "img/hippo.jpg"
 links:
     - icon: twitter
-      text: Bluesky
-      href: https://bsky.app/profile/gnoblet.bsky.social
+      text: Twitter
+      href: https://x.com/impact_init
     - icon: github
       text: Github
-      href: https://github.com/gnoblet
+      href: https://github.com/impact-initiatives-hppu
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/gnoblet/
+      href: https://www.linkedin.com/company/impact-initiatives/
     - icon: envelope
       text: Email
-      href: "mailto:gnoblet@zaclys.net"  
+      href: "mailto:guillaume.noblet@impact-initiatives.org"  
 ---
 ::: {#about-block}
 :::
 
 # Welcome to this technical website!
 
-This website is a very early stage of construction. What you will find is still to be found. Blurry image, maybe forever.
+This website is a very early stage of construction. You will find eventually all publicly available technical documentation for Muli-Sector Needs Assessments (MSNA), for instance R packages and training, good practices and standards.
 
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://github.com/gnoblet" role="button" target="_blank" style="padding: 15px 30px;">My Github</a>
+<a class="btn btn-primary" href="https://github.com/impact-initiatives-hppu" role="button" target="_blank" style="padding: 15px 30px;">HPPU Github</a>
 </div>
 ```
 

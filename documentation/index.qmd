@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Documentation
 ---
 
 ## Building checks for R functions --- A nomenclature
