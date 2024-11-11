@@ -6,10 +6,10 @@ execute:
   freeze: auto
 
 website:
-  title: "HPPU now has a site for technical documentation"
+  title: "Guillaume Noblet"
   description: "Gandalf is an under-construction renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
   image: img/my_image.jpg
-  site-url: "https://impact-initiatives-hppu.github.io/"
+  site-url: "https://gnoblet.github.io/"
   navbar:
     pinned: true
     logo: /img/logo.png
@@ -19,20 +19,20 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - text: "Documentation"
-        href: documentation/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
     
     # your social media handles
     right:
       - icon: github
-        href: https://github.com/impact-initiatives-hppu
+        href: https://github.com/gnoblet
       - icon: twitter
-        href: https://twitter.com/IMPACT_init
+        href: https://bsky.app/profile/gnoblet.bsky.social
       - icon: linkedin
-        href: https://www.linkedin.com/company/impact-initiatives/
+        href: https://www.linkedin.com/in/gnoblet/
       - icon: envelope
         aria-label: email
-        href: "mailto:guillaume.noblet@impact-initiatives.org"  
+        href: "mailto:gnoblet@zaclys.net"  
   # Don't touch unless you know what you are doing :) ------------
   search: 
     location: navbar
@@ -41,9 +41,9 @@ website:
     left: |
       <span class="faux-block">&#169; 2023 Guillaume Noblet CC BY-SA 4.0</span>
     center: |
-      <span class="faux-block"><a href="https://github.com/impact-initiatives-hppu">View the tutorial for this template!</a></span>
+      <span class="faux-block"><a href="https://github.com/gnoblet">View the tutorial for this template!</a></span>
     right: |
-      <span class="faux-block"><a href="https://github.com/impact-initiatives-hppu/impact-initiatives-hppu.github.io">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/gnoblet/gnoblet.github.io">View source on GitHub</a></span>
 
 format:
   html:
