@@ -1,5 +1,5 @@
 ---
-title: "HPPU - MSNA Techincal Documentation"
+title: "HPPU - MSNA Technical Documentation"
 date: last-modified
 resources:
   - .nojekyll
